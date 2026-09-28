@@ -22,3 +22,14 @@ const end = performance.now();
 const elapsedTime = end - start;
 // Log the elapsed time to the console
 console.log(`Execution time: ${elapsedTime} milliseconds`);
+
+//live noti
+const toastTrigger = document.getElementById('liveToastBtn')
+const toastLiveExample = document.getElementById('liveToast')
+
+if (toastTrigger) {
+  const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+  toastTrigger.addEventListener('click', () => {
+    toastBootstrap.show()
+  })
+}

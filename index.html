@@ -13,6 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto+Slab:wght@100..900&display=swap"
       rel="stylesheet"
     />
+
     <!-- Bootstrap CSS  -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
@@ -20,6 +21,8 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+
+
     <!-- Custom CSS  -->
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
@@ -44,9 +47,11 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#"
-                      >Home</a
-                    >
+                      >Home</a> 
                   </li>
+
+
+
                   <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>
                   </li>
@@ -109,7 +114,7 @@
               <li>Sed vel turpis ligula</li>
               <li>Sed scelerisque imperdiet metus nec blandit</li>
             </ul>
-            <h2>Fusce dignissim</h2>
+            <h2>Header 2</h2>
             <p>
               Sed scelerisque imperdiet metus nec blandit. Nunc at tempus augue.
               Nulla id laoreet quam. Fusce dignissim, est sit amet mollis
@@ -121,7 +126,56 @@
               luctus et egestas id, fringilla nec est. Duis pellentesque
               pulvinar tellus, id congue turpis pretium a. Vivamus imperdiet
               odio ante, sit amet accumsan lacus cursus eget.
-            </p>
+              <button type="button" class="btn btn-primary" id="liveToastBtn">press me</button>
+
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <img src="..." class="rounded me-2" alt="...">
+      <strong class="me-auto">Bootstrap</strong>
+      <small>11 mins ago</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      9 plus 10 is 21
+  </div>
+  
+  </div>
+            <h3>Header 3 - random table</h3>
+
+    <table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+
+           
           </section>
         </div>
       </main>
